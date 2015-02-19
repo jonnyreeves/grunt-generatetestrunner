@@ -72,7 +72,7 @@ generatetestrunner: {
       srcLibs: 'build/main.js',
 
       // provide the path to your testing framework, accepts js and css.
-      vendorLibs: [ 'vendor/mocha*', 'vendor/chai*.js ]
+      vendorLibs: [ 'vendor/mocha*', 'vendor/chai*.js' ]
 
       // generate a template for use with Mocha.
       runner: 'mocha',
